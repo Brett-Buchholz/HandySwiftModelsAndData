@@ -14,6 +14,12 @@
 		57199D832B4F3CE600B90406 /* HandySwiftModelsAndData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57199D812B4F3CE600B90406 /* HandySwiftModelsAndData.xcdatamodeld */; };
 		57199D852B4F3CE800B90406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57199D842B4F3CE800B90406 /* Assets.xcassets */; };
 		57199D882B4F3CE800B90406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57199D862B4F3CE800B90406 /* LaunchScreen.storyboard */; };
+		57199D922B4F3D5200B90406 /* BrettButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D912B4F3D5200B90406 /* BrettButton.swift */; };
+		57199D952B4F3DC900B90406 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D942B4F3DC900B90406 /* CurrencyTextField.swift */; };
+		57199D972B4F3E1B00B90406 /* PercentageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D962B4F3E1B00B90406 /* PercentageTextField.swift */; };
+		57199D992B4F3E6200B90406 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D982B4F3E6200B90406 /* PaddingLabel.swift */; };
+		57199D9B2B4F3E9500B90406 /* AddBorders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D9A2B4F3E9500B90406 /* AddBorders.swift */; };
+		57199D9D2B4F3EED00B90406 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D9C2B4F3EED00B90406 /* PDFKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		57199D842B4F3CE800B90406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57199D872B4F3CE800B90406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57199D892B4F3CE800B90406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57199D912B4F3D5200B90406 /* BrettButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrettButton.swift; sourceTree = "<group>"; };
+		57199D942B4F3DC900B90406 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		57199D962B4F3E1B00B90406 /* PercentageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageTextField.swift; sourceTree = "<group>"; };
+		57199D982B4F3E6200B90406 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		57199D9A2B4F3E9500B90406 /* AddBorders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBorders.swift; sourceTree = "<group>"; };
+		57199D9C2B4F3EED00B90406 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +72,44 @@
 			children = (
 				57199D782B4F3CE600B90406 /* AppDelegate.swift */,
 				57199D7A2B4F3CE600B90406 /* SceneDelegate.swift */,
-				57199D7C2B4F3CE600B90406 /* ViewController.swift */,
-				57199D7E2B4F3CE600B90406 /* Main.storyboard */,
+				57199D932B4F3D5B00B90406 /* Models */,
+				57199D8F2B4F3D1500B90406 /* Views */,
+				57199D902B4F3D2500B90406 /* Controllers */,
 				57199D842B4F3CE800B90406 /* Assets.xcassets */,
 				57199D862B4F3CE800B90406 /* LaunchScreen.storyboard */,
 				57199D892B4F3CE800B90406 /* Info.plist */,
 				57199D812B4F3CE600B90406 /* HandySwiftModelsAndData.xcdatamodeld */,
 			);
 			path = HandySwiftModelsAndData;
+			sourceTree = "<group>";
+		};
+		57199D8F2B4F3D1500B90406 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57199D7E2B4F3CE600B90406 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57199D902B4F3D2500B90406 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57199D7C2B4F3CE600B90406 /* ViewController.swift */,
+				57199D9C2B4F3EED00B90406 /* PDFKitViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57199D932B4F3D5B00B90406 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57199D9A2B4F3E9500B90406 /* AddBorders.swift */,
+				57199D912B4F3D5200B90406 /* BrettButton.swift */,
+				57199D942B4F3DC900B90406 /* CurrencyTextField.swift */,
+				57199D982B4F3E6200B90406 /* PaddingLabel.swift */,
+				57199D962B4F3E1B00B90406 /* PercentageTextField.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57199D9B2B4F3E9500B90406 /* AddBorders.swift in Sources */,
+				57199D952B4F3DC900B90406 /* CurrencyTextField.swift in Sources */,
+				57199D9D2B4F3EED00B90406 /* PDFKitViewController.swift in Sources */,
 				57199D7D2B4F3CE600B90406 /* ViewController.swift in Sources */,
+				57199D972B4F3E1B00B90406 /* PercentageTextField.swift in Sources */,
 				57199D792B4F3CE600B90406 /* AppDelegate.swift in Sources */,
+				57199D992B4F3E6200B90406 /* PaddingLabel.swift in Sources */,
 				57199D832B4F3CE600B90406 /* HandySwiftModelsAndData.xcdatamodeld in Sources */,
+				57199D922B4F3D5200B90406 /* BrettButton.swift in Sources */,
 				57199D7B2B4F3CE600B90406 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
