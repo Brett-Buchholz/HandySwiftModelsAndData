@@ -21,7 +21,7 @@ class PDFKitViewController: UIViewController, PDFViewDelegate {
         //Step 4 Create a PDF Document. There are several ways to initialize the document:
         
         //Step 4: Option 1 - Create a blank PDF
-        let newDocument  = PDFDocument()
+        let newDocument = PDFDocument()
         
         /*Step 4: Option 2 - Create a PDF from an existing PDF. Do this by creating a url object
          and then passing that object into the PDFDocument(url: ) initializer. Both the url object
