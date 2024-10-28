@@ -24,6 +24,8 @@
 		57199D9B2B4F3E9500B90406 /* AddBorders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D9A2B4F3E9500B90406 /* AddBorders.swift */; };
 		57199D9D2B4F3EED00B90406 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199D9C2B4F3EED00B90406 /* PDFKitViewController.swift */; };
 		5769EB652B5C6F73006FDC35 /* IntegerOnlyTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5769EB642B5C6F73006FDC35 /* IntegerOnlyTextFieldViewController.swift */; };
+		57C795252CCEBB04005AC09B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C795242CCEBB04005AC09B /* LocationManager.swift */; };
+		57C833552CB8885F0013DF6F /* APICallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C833542CB8885F0013DF6F /* APICallModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		57199D9A2B4F3E9500B90406 /* AddBorders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBorders.swift; sourceTree = "<group>"; };
 		57199D9C2B4F3EED00B90406 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
 		5769EB642B5C6F73006FDC35 /* IntegerOnlyTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerOnlyTextFieldViewController.swift; sourceTree = "<group>"; };
+		57C795242CCEBB04005AC09B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		57C833542CB8885F0013DF6F /* APICallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				57199D9A2B4F3E9500B90406 /* AddBorders.swift */,
+				57C833542CB8885F0013DF6F /* APICallModel.swift */,
 				57199D912B4F3D5200B90406 /* BrettButton.swift */,
 				5705AD172B510B0400525E37 /* CreateImageFromViewViewController.swift */,
 				57199D942B4F3DC900B90406 /* CurrencyTextField.swift */,
+				57C795242CCEBB04005AC09B /* LocationManager.swift */,
 				57199D982B4F3E6200B90406 /* PaddingLabel.swift */,
 				57199D962B4F3E1B00B90406 /* PercentageTextField.swift */,
 				570050D92B851965000FA6AA /* StoreKitCoordinator.swift */,
@@ -195,9 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C833552CB8885F0013DF6F /* APICallModel.swift in Sources */,
 				57199D9B2B4F3E9500B90406 /* AddBorders.swift in Sources */,
 				5705AD182B510B0400525E37 /* CreateImageFromViewViewController.swift in Sources */,
 				57199D952B4F3DC900B90406 /* CurrencyTextField.swift in Sources */,
+				57C795252CCEBB04005AC09B /* LocationManager.swift in Sources */,
 				5769EB652B5C6F73006FDC35 /* IntegerOnlyTextFieldViewController.swift in Sources */,
 				57199D9D2B4F3EED00B90406 /* PDFKitViewController.swift in Sources */,
 				57199D7D2B4F3CE600B90406 /* ViewController.swift in Sources */,
